@@ -5,26 +5,17 @@ This AppDaemon app allows you to use button presses from an Ikea Tradfri remote 
 
 Example apps.yaml:
 
+```
 kitchen_tradfri_remotes:
-
   module: tradfri_remotes
-  
   class: tradfri_remotes
-  
   lights:
-  
     - light.kitchen_spotlight
-    
     - light.main_cabinets
-    
     - light.coffee_bar
-    
     - light.kitchen_spotlight_left
-    
     - light.kitchen_spotlight_right
-    
   sensors:
-  
     - sensor.tradfri_kitchen_remote
-    
     - sensor.tradfri_kitchen_dimmer_action
+```
