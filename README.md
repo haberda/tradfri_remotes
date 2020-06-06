@@ -5,6 +5,12 @@ This AppDaemon app allows you to use button presses from an Ikea Tradfri remote 
 
 Note: as of this release color bulbs are not fully supported. The toggle and dimming features should work, but colors will not change.
 
+Supported remotes:
+
+https://www.zigbee2mqtt.io/devices/E1524_E1810.html
+
+https://www.zigbee2mqtt.io/devices/ICTC-G-1.html
+
 Example apps.yaml:
 
 ```
