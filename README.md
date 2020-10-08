@@ -1,9 +1,9 @@
 # tradfri_remotes
 AppDaemon app to use Tradfri remotes
 
-This AppDaemon app allows you to use button presses from an Ikea Tradfri remote that has been paired to a Zigbee hub that reveals the button presses as a sensor in Home Assistant. This notably works with zigbee2mqtt which allows you to pair the remote and receive remote presses as sensor state changes. This attempts to mimic the normal usage of the remotes as much as possible without actually binding the remote to the lights or devices. This has the advantage of being able to be used with more than just Zigbee lights, and can potentially be used for any light in Home Assistant.
+This AppDaemon app allows you to use button presses from an Ikea Tradfri remote that has been paired to a Zigbee hub that reveals the button presses as a sensor in Home Assistant. This notably works with zigbee2mqtt which allows you to pair the remote and receive remote presses as sensor state changes. This attempts to mimic the normal usage of the remotes as much as possible without actually binding the remote to the lights. This has the advantage of being able to be used with more than just Zigbee lights, and can potentially be used for any light in Home Assistant.
 
-Note: as of this release color bulbs are not fully supported. The toggle and dimming features should work, but colors will not change.
+Note: as of this release color bulbs are not fully supported. The toggle and dimming features should work, but colors will not change. Also, only lights are supported, other devices are not.
 
 Supported remotes:
 
