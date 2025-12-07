@@ -1,4 +1,7 @@
 # Tradfri remotes
+
+Note: no longer maintained
+
 AppDaemon app to use Tradfri remotes for ZHA and Zigbee2MQTT
 
 This AppDaemon app allows you to use button presses from an Ikea Tradfri remote that has been paired to a ZHA or Zigbee2MQTT hub. This attempts to mimic the normal usage of the remotes as much as possible without actually binding the remote to the lights. This has the advantage of being able to be used with more than just Zigbee lights, and can potentially be used for any light in Home Assistant.
